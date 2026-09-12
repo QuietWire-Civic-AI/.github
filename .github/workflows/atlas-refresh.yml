@@ -1,0 +1,30 @@
+name: Public Repository Atlas refresh
+on:
+  schedule:
+    - cron: '47 9 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: public-repository-atlas-refresh
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'QuietWire-Civic-AI/.github' && github.ref == 'refs/heads/main' && vars.ATLAS_PUBLIC_REFRESH_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          persist-credentials: false
+      - name: Compile public collector
+        run: python3 -m py_compile scripts/refresh_public_atlas.py
+      - name: Recheck public visibility without credentials
+        run: python3 scripts/refresh_public_atlas.py
+      - name: Propose public-only updates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: bash scripts/atlas_refresh_pr.sh atlas/public.json profile/README.md
