@@ -1,0 +1,96 @@
+{
+  "organization": "QuietWire-Civic-AI",
+  "repositories": [
+    {
+      "approved_at": "2026-09-12",
+      "id": 1059462538,
+      "name": "canon-mesh-demo",
+      "summary": "Canon/Mesh demonstration material, not production authority."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1053088952,
+      "name": "CanonNode_RickStone2023",
+      "summary": "Public Canon node material."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1055190342,
+      "name": "CityMesh-FieldLab_Atlanta",
+      "summary": "Public CityMesh field-lab material."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1022769541,
+      "name": "civic-ai-canon",
+      "summary": "Public Civic AI and Canon corpus; check the status of each artifact."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1119167374,
+      "name": "civic-ai-canonv",
+      "summary": "Additional public Canon corpus; do not infer equivalence with similarly named repositories."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1072632398,
+      "name": "Civic-AI-Cross-Attestation-Web-Interface",
+      "summary": "Cross-attestation web-interface material."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1082180093,
+      "name": "Civic_Attestation_Platform",
+      "summary": "Earlier attestation-platform implementation material."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1006115546,
+      "name": "civicmesh-install",
+      "summary": "Historical Civic Mesh installation material; verify suitability before use."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1079940347,
+      "name": "dbom-core",
+      "summary": "DBoM core material."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1006763964,
+      "name": "Quietwire",
+      "summary": "Foundational QuietWire material and history."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1076122041,
+      "name": "QuietWire-Infrastructure",
+      "summary": "Public infrastructure material; check artifact freshness."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1047433228,
+      "name": "QuietWire-Ledger",
+      "summary": "Ledger and provenance material."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1315371256,
+      "name": "quietwire-site",
+      "summary": "Source for the public QuietWire website."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1075528192,
+      "name": "SBOM_Attestation_Demo",
+      "summary": "SBOM and attestation demonstration material."
+    },
+    {
+      "approved_at": "2026-09-12",
+      "id": 1069090669,
+      "name": "TreasuryBoard_4.1.13_Example",
+      "summary": "Example material; not an official government implementation."
+    }
+  ],
+  "schema": "quietwire.public-curation/v1"
+}
