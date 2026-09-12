@@ -1,0 +1,113 @@
+{
+  "organization": "QuietWire-Civic-AI",
+  "relations": [],
+  "repositories": [
+    {
+      "archived": false,
+      "id": 1059462538,
+      "name": "canon-mesh-demo",
+      "summary": "Canon/Mesh demonstration material, not production authority.",
+      "url": "https://github.com/QuietWire-Civic-AI/canon-mesh-demo"
+    },
+    {
+      "archived": false,
+      "id": 1053088952,
+      "name": "CanonNode_RickStone2023",
+      "summary": "Public Canon node material.",
+      "url": "https://github.com/QuietWire-Civic-AI/CanonNode_RickStone2023"
+    },
+    {
+      "archived": false,
+      "id": 1055190342,
+      "name": "CityMesh-FieldLab_Atlanta",
+      "summary": "Public CityMesh field-lab material.",
+      "url": "https://github.com/QuietWire-Civic-AI/CityMesh-FieldLab_Atlanta"
+    },
+    {
+      "archived": false,
+      "id": 1022769541,
+      "name": "civic-ai-canon",
+      "summary": "Public Civic AI and Canon corpus; check the status of each artifact.",
+      "url": "https://github.com/QuietWire-Civic-AI/civic-ai-canon"
+    },
+    {
+      "archived": false,
+      "id": 1119167374,
+      "name": "civic-ai-canonv",
+      "summary": "Additional public Canon corpus; do not infer equivalence with similarly named repositories.",
+      "url": "https://github.com/QuietWire-Civic-AI/civic-ai-canonv"
+    },
+    {
+      "archived": false,
+      "id": 1072632398,
+      "name": "Civic-AI-Cross-Attestation-Web-Interface",
+      "summary": "Cross-attestation web-interface material.",
+      "url": "https://github.com/QuietWire-Civic-AI/Civic-AI-Cross-Attestation-Web-Interface"
+    },
+    {
+      "archived": false,
+      "id": 1082180093,
+      "name": "Civic_Attestation_Platform",
+      "summary": "Earlier attestation-platform implementation material.",
+      "url": "https://github.com/QuietWire-Civic-AI/Civic_Attestation_Platform"
+    },
+    {
+      "archived": false,
+      "id": 1006115546,
+      "name": "civicmesh-install",
+      "summary": "Historical Civic Mesh installation material; verify suitability before use.",
+      "url": "https://github.com/QuietWire-Civic-AI/civicmesh-install"
+    },
+    {
+      "archived": false,
+      "id": 1079940347,
+      "name": "dbom-core",
+      "summary": "DBoM core material.",
+      "url": "https://github.com/QuietWire-Civic-AI/dbom-core"
+    },
+    {
+      "archived": false,
+      "id": 1006763964,
+      "name": "Quietwire",
+      "summary": "Foundational QuietWire material and history.",
+      "url": "https://github.com/QuietWire-Civic-AI/Quietwire"
+    },
+    {
+      "archived": false,
+      "id": 1076122041,
+      "name": "QuietWire-Infrastructure",
+      "summary": "Public infrastructure material; check artifact freshness.",
+      "url": "https://github.com/QuietWire-Civic-AI/QuietWire-Infrastructure"
+    },
+    {
+      "archived": false,
+      "id": 1047433228,
+      "name": "QuietWire-Ledger",
+      "summary": "Ledger and provenance material.",
+      "url": "https://github.com/QuietWire-Civic-AI/QuietWire-Ledger"
+    },
+    {
+      "archived": false,
+      "id": 1315371256,
+      "name": "quietwire-site",
+      "summary": "Source for the public QuietWire website.",
+      "url": "https://github.com/QuietWire-Civic-AI/quietwire-site"
+    },
+    {
+      "archived": false,
+      "id": 1075528192,
+      "name": "SBOM_Attestation_Demo",
+      "summary": "SBOM and attestation demonstration material.",
+      "url": "https://github.com/QuietWire-Civic-AI/SBOM_Attestation_Demo"
+    },
+    {
+      "archived": false,
+      "id": 1069090669,
+      "name": "TreasuryBoard_4.1.13_Example",
+      "summary": "Example material; not an official government implementation.",
+      "url": "https://github.com/QuietWire-Civic-AI/TreasuryBoard_4.1.13_Example"
+    }
+  ],
+  "schema": "quietwire.public-repository-atlas/v1",
+  "scope": "public"
+}
